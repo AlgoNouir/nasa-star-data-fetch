@@ -272,12 +272,16 @@ def mergeData(index:int, newData:dict):
         stellar_parameters['lum_e'],
         stellar_parameters['mass'],
         stellar_parameters['mass_e'],
+        stellar_parameters['snr'],
+        stellar_parameters['snr_e'],
         stellar_parameters['met'],
         stellar_parameters['met_e'],
         stellar_parameters['srad'],
         stellar_parameters['srad_e'],
         stellar_parameters['teff'],
         stellar_parameters['teff_e'],
+        stellar_parameters['otime'],
+        stellar_parameters['otime_e'],
     ]
     
     return lastData
